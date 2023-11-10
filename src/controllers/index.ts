@@ -1,0 +1,8 @@
+export * as authenticationController from './authentication'
+export * as adminController from './admin/index'
+export * as teacherController from './teacher/index'
+export * as subAdminController from './sub_admin'
+export * as schoolController from './school'
+export * as studentController from './student'
+export * as auditorController from './auditor'
+export * as facultyController from './faculty'

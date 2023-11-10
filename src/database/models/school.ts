@@ -1,0 +1,25 @@
+import mongoose from 'mongoose'
+const schoolSchema: any = new mongoose.Schema({
+    name: { type: String, default: null },
+    email: { type: String, default: null },
+    //password: { type: String, default: null },
+    //image: { type: String, default: null },
+    address: { type: String, default: null },
+    // city: { type: String, default: null },
+    // state: { type: String, default: null },
+    // country: { type: String, default: null },
+    // PINcode: { type: String, default: 0 },
+    established_date: { type: Date, default: Date.now() },
+    phoneNumber: { type: String, default: null },
+    authToken: { type: Number, default: null },
+    isEmailVerified: { type: Boolean, default: true },
+    otp: { type: Number, default: null },
+    otpExpireTime: { type: Date, default: null },
+    //website: { type: String, default: null },
+    userType: { type: Number, default: 6 },
+    isActive: { type: Boolean, default: true },
+    isBlock: { type: Boolean, default: false },
+    createdBy: { type: mongoose.Schema.Types.ObjectId, default: null },
+    updatedBy: { type: mongoose.Schema.Types.ObjectId, default: null },
+}, { timestamps: true })
+export const schoolModel = mongoose.model<any>('school', schoolSchema)

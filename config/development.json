@@ -1,0 +1,52 @@
+{
+  "test": "mongodb://localhost:27017/UI-Village",
+  "db_url_v1": "mongodb+srv://admin:admin@semicolon.l5pln.mongodb.net/Exhibit_development",
+  "db_url": "mongodb+srv://ebooknode:u6nauApUCj9io6XD@ebooklibrary.1cmnr.mongodb.net/katon_development",
+  "db_url_v2": "mongodb+srv://node:XhrBdaTUJSfNoyEY@readitout.rejgp.mongodb.net/Katon_v1",
+  "jwt_token_secret": "seCr3t-U1-VIll^&@-enc-kEY",
+  "refresh_jwt_token_secret": "R|-Fre_|-HSP:?-seCr3t-U1-VIll^&@-enc-kEY",
+  "Winston": {
+    "level": "error"
+  },
+  "nodeMail": {
+    "mail": "katon@katechnologiesgh.com",
+    "password": "Forbes@123"
+  },
+  "timeZone": "Asia/Calcutta",
+  "aws": {
+    "accessKeyId": "AKIAYXSOV3RCBKP54U3M",
+    "secretAccessKey": "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",
+    "region": "eu-central-1",
+    "bucket_name": "katonproduction",
+    "bucket_URL": "https://katonproduction.s3.eu-central-1.amazonaws.com/"
+  },
+  "SMS": {
+    "URL": "https://6j63ez.api.infobip.com/sms/2/text/advanced",
+    "smsSender": "KATon",
+    "apiKey": "55337b71a9b11866f9df55eb6fa8b535-edb780b6-b89c-4a9d-8f4e-330dee217495"
+  },
+  "SMS_v1": {
+    "URL": "https://smsapi.interpayafrica.com/Api/SendSMS",
+    "smsSender": "KATon",
+    "userName": "PANAFADMIN",
+    "appKey": "hU3tg59^rebdVFAl"
+  },
+  "email": {
+    "mail": "info@katechnologiesgh.com <katon@katechnologiesgh.com>",
+    "URL": "https://6j63ez.api.infobip.com/email/2/send",
+    "smsSender": "KATon",
+    "apiKey": "55337b71a9b11866f9df55eb6fa8b535-edb780b6-b89c-4a9d-8f4e-330dee217495"
+  },
+  "azure": {
+    "TENANT_ID": "fd743c2b-b398-4d36-b4f0-a4601ea56515",
+    "CLIENT_ID": "b18d13cb-b443-41e2-bb16-89519dd0617e",
+    "CLIENT_SECRET": "ryv8Q~eAp6ZZ~94emNNiKchpTZmpRCoJjXNoSb3R",
+    "AAD_ENDPOINT": "https://login.microsoftonline.com",
+    "GRAPH_ENDPOINT": "https://graph.microsoft.com",
+    "userId": "16f875f0-c635-4026-bd32-cdd7ee613bfe"
+  },
+  "certificate": {
+    "withPartner": "https://katonproduction.s3.eu-central-1.amazonaws.com/certificate1.jpeg",
+    "withoutPartner": "https://katonproduction.s3.eu-central-1.amazonaws.com/without_partner_certificate_1.png"
+  }
+}
